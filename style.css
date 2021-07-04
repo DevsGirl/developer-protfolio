@@ -1,9 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 h1{
+    font-family: 'Dancing Script', cursive;
     font-size: 50px;
+    font-weight: 700;
 }
 h2{
     font-size: 40px;
@@ -21,6 +26,7 @@ p{
 }
 .orange-color{
     color: orange;
+   
 }
 .half-width{
     width: 40%;
