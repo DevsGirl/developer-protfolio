@@ -5,28 +5,42 @@ body{
 h1{
     font-size: 50px;
 }
+h3{
+    font-size: 25px;
+}
+p{
+    color: dimgray;
+    font-size: 20px;
+}
 section{
-    display: flex;;
+    display: flex;
+    margin-bottom: 150PX;
 }
 .orange-color{
     color: orange;
 }
 .half-width{
-    width: 50%;
+    width: 40%;
     padding-left: 5%;
 }
 .half-width img{
-    width: 90%;
+    width: 100%;
 }
 .link-button {
     text-decoration: none;
     background: linear-gradient(45deg, lightsalmon, tomato);
-    padding: 10px 40px;
+    padding: 15px 45px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
 }
+
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
